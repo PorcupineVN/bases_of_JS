@@ -1,0 +1,44 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+/* 6. Реализовать функцию с тремя параметрами: function mathOperation(arg1, arg2, operation), 
+где arg1, arg2 – значения аргументов, operation – строка с названием операции. 
+В зависимости от переданного значения операции выполнить одну из арифметических операций 
+(использовать функции из пункта 3) и вернуть полученное значение (использовать switch). */
+
+
+function plus(a, b){
+    return a + b;
+}
+
+function minus(a, b){
+    return a - b;
+}
+
+function division(a, b){
+    return a / b;
+}
+
+function multiplication(a, b){
+    return a * b
+}
+
+function mathOperation(arg1, arg2, operation){
+    switch(operation){
+        case 'сложение':
+            plus(arg1, arg2)
+            break
+        case 'вычитание':
+            minus(arg1, arg2)
+            break
+        case 'деление':
+            division(arg1, arg2)
+            break
+        case 'умножение':
+            multiplication(arg1, arg2)
+            break
+        default:
+            return 'Неверное название операции'
+    }
+}
+</script>
