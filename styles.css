@@ -1,0 +1,17 @@
+.title{
+    text-align: center;
+}
+
+.task{
+    text-align: center;
+    color: rgb(50, 53, 50);
+}
+
+.product{
+    border:2px ridge chartreuse;
+    width: 300px;
+}
+
+.basket{
+    color: darkred;
+}
